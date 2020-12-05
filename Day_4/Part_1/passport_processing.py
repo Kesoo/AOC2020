@@ -18,6 +18,6 @@ for passportRow in passportRows:
         currentKeySet.clear()
 
 if currentKeySet == wantedKeySet:
-            validPassports += 1
+    validPassports += 1
 
 print("Valid passports: " + str(validPassports))
