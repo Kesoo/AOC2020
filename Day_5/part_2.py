@@ -43,7 +43,7 @@ for code in codes:
         
         if len(currentColRange) == 1:
             finalCol = currentColRange[0]
-            allSeatIds.append((finalRow * 8) + finalCol)
+    allSeatIds.append((finalRow * 8) + finalCol)
 
 print("Your seatID: " + str(find_missing_seat(allSeatIds)))
 print("Highest seat ID: " + str(max(allSeatIds)))
